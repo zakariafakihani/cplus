@@ -1,0 +1,17 @@
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\bin\Debug\CompetencePlusForm.exe
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\bin\Debug\CompetencePlusForm.pdb
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\bin\Debug\CompetencePlusBAL.dll
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\bin\Debug\CompetencePlusDAL.dll
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\bin\Debug\CompetencePlusBAL.pdb
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\bin\Debug\CompetencePlusDAL.pdb
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.csprojResolveAssemblyReference.cache
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.MenuApplication.resources
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.PackageFilieres.FormFiliere.resources
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.PackageFilieres.FormGestionFiliere.resources
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.PackageFilieres.FormUpdateFiliere.resources
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.Properties.Resources.resources
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.csproj.GenerateResource.Cache
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.exe
+C:\Users\ESSARRAJ\Documents\GitHub\prototype-winform\PrototypeAppCompetencePlus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.pdb
+C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.exe
+C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.pdb
