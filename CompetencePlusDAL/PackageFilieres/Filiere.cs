@@ -40,6 +40,10 @@ namespace CompetencePlus.PackageFilieres
         {
            
         }
+        public override string ToString()
+        {
+            return this.titre;
+        }
      
     }
 }

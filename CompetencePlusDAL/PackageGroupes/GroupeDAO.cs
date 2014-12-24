@@ -12,13 +12,13 @@ namespace CompetencePlus.PackageGroupes
     {
         public  void Add(Groupe g)
         {
-            string Requete = "Insert into Groupes values ('" + g.Code + "','" + g.Nom + "')";
+            string Requete = "Insert into Groupes(Nom,Code,Description,idFiliere) values ('" +g.Nom  + "','" +g.Code+ "','" + g.Description +"',"+g.Filiere.Id +")";
             MyConnection.ExecuteNonQuery(Requete);
         }
 
         public  void Update(Groupe g)
         {
-            string Requete = "Update Filieres set Code ='" + g.Code + "',Nom ='" + g.Nom + "' where id =" + g.Id;
+            string Requete = "Update Filieres set Code ='" + g.Code + "',Nom ='" + g.Nom +"',Description='"+g.Description+"',IdFiliere="+g.Filiere.Id+" where id =" + g.Id;
             MyConnection.ExecuteNonQuery(Requete);
         }
 
@@ -37,8 +37,10 @@ namespace CompetencePlus.PackageGroupes
             {
                 Groupe g = new Groupe();
                 g.Id = read.GetInt32(0);
-                g.Code = read.GetString(1);
-                g.Nom = read.GetString(2);
+                g.Nom = read.GetString(1);
+                g.Code = read.GetString(2);
+                g.Description = read.GetString(3);
+                g.Filiere = new FiliereDAO().FindById(read.GetInt32(4));
                 ListGroupe.Add(g);
 
             }
@@ -61,7 +63,7 @@ namespace CompetencePlus.PackageGroupes
         }
         public Groupe FindByName(string Name)
         {
-            string Requete = "Select * from Groupes where Nom='Groupe 1'";
+            string Requete = "Select * from Groupes where Nom='"+Name+"'";
        
             OleDbDataReader read = MyConnection.ExecuteReader(Requete);
             read.Read();
@@ -74,7 +76,52 @@ namespace CompetencePlus.PackageGroupes
             return g;
         }
 
+        public List<Groupe> FindByGroup(Groupe g) {
+            string Requete = "Select * from Groupes ";
+            if (g.Code != "" || g.Nom != "" || g.Description != ""||g.Filiere.Titre!="")
+            {
+                Requete += " where ";
+            }
+            bool and = false;
+            if (g.Code != "")
+            {
+                Requete += " Code like '%" + g.Code + "%'";
+                and = true;
+            }
+            if (g.Nom != "")
+            {
+                if (and) Requete += " and ";
+                Requete += " Nom like '%" + g.Nom + "%'";
+                and = true;
+            }
+            if (g.Description != "")
+            {
+                if (and) Requete += " and ";
+                Requete += " Description like '%" + g.Description + "%'";
+                and = true;
+            }
+            if (g.Filiere.Titre != "")
+            {
+                if (and) Requete += " and ";
+                Requete += " IdFiliere like '%" + g.Filiere.Id + "%'";
+                and = true;
+            }
 
+            List<Groupe> ListGroupe = new List<Groupe> ();
+            OleDbDataReader read = MyConnection.ExecuteReader(Requete);
+            while (read.Read())
+            {
+                Groupe gr = new Groupe();
+                gr.Id = read.GetInt32(0);
+                gr.Nom = read.GetString(1);
+                gr.Code = read.GetString(2);
+                gr.Description = read.GetString(3);
+                gr.Filiere = new FiliereDAO().FindById(read.GetInt32(4));
+                ListGroupe.Add(gr);
+            }
+            MyConnection.Close();
+            return ListGroupe;
+        }
          
     }
 }

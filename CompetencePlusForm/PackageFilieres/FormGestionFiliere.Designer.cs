@@ -67,7 +67,7 @@
             this.groupBox1.Controls.Add(this.TitreLabel);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(11, 12);
+            this.groupBox1.Location = new System.Drawing.Point(12, 41);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(273, 89);
             this.groupBox1.TabIndex = 0;
@@ -121,7 +121,7 @@
             this.groupBox2.Controls.Add(this.DescriptionTextBox);
             this.groupBox2.Controls.Add(this.CodeTextBox);
             this.groupBox2.Controls.Add(this.TitleTextBox);
-            this.groupBox2.Location = new System.Drawing.Point(11, 107);
+            this.groupBox2.Location = new System.Drawing.Point(12, 167);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(273, 191);
             this.groupBox2.TabIndex = 1;

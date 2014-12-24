@@ -102,17 +102,17 @@ namespace CompetencePlus.PackageFilieres
 
 
             List<Filiere> ListFiliere = new List<Filiere>();
-            OleDbDataReader read = MyConnection.ExecuteReader(Requete);
-            while (read.Read())
-            {
-                Filiere f = new Filiere();
-                f.Id = read.GetInt32(0);
-                f.Titre = read.GetString(1);
-                f.Code = read.GetString(2);
-                f.Description = read.GetString(3);
-                ListFiliere.Add(f);
-            }
-            MyConnection.Close();
+                OleDbDataReader read = MyConnection.ExecuteReader(Requete);
+                while (read.Read())
+                {
+                    Filiere f = new Filiere();
+                    f.Id = read.GetInt32(0);
+                    f.Titre = read.GetString(1);
+                    f.Code = read.GetString(2);
+                    f.Description = read.GetString(3);
+                    ListFiliere.Add(f);
+                }
+                MyConnection.Close();
             return ListFiliere;
         }
        
