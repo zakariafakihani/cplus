@@ -212,6 +212,17 @@
   <ItemGroup>
     <None Include="Resources\Profile.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PackageAbsences\" />
+    <Folder Include="PackageAnneeFormations\" />
+    <Folder Include="PackageEmploisTemps\" />
+    <Folder Include="PackageFormateurs\" />
+    <Folder Include="PackageFormations\" />
+    <Folder Include="PackageModules\" />
+    <Folder Include="PackageNotes\" />
+    <Folder Include="PackagePrevisionSeances\" />
+    <Folder Include="PackageSeances\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
