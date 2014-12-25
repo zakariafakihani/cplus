@@ -130,6 +130,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MenuApplication.fr.resx">
+      <DependentUpon>MenuApplication.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuApplication.resx">
       <DependentUpon>MenuApplication.cs</DependentUpon>
     </EmbeddedResource>

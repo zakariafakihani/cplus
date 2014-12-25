@@ -39,7 +39,10 @@ namespace CompetencePlus.PackageFilieres
         private void BtAdd_Click(object sender, EventArgs e)
         {
             FormFiliere f = new FormFiliere();
+           
+          
             f.ShowDialog();
+         
             this.refresh();
         }
 

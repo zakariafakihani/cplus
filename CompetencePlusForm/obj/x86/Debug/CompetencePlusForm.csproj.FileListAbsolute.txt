@@ -59,3 +59,6 @@ C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\Compet
 C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.PackageStagiaires.FormUpdateStagiaires.resources
 C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.Properties.Resources.resources
 C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\CompetencePlusForm.csproj.GenerateResource.Cache
+C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\bin\Debug\fr\CompetencePlusForm.resources.dll
+C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\CompetencePlus.MenuApplication.fr.resources
+C:\Users\ESSARRAJ\Documents\GitHub\cplus\CompetencePlusForm\obj\x86\Debug\fr\CompetencePlusForm.resources.dll

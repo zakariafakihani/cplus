@@ -22,6 +22,7 @@ namespace CompetencePlus
         private void gérerFiliereToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormGestionFiliere f = new FormGestionFiliere();
+            f.MdiParent = this;
             f.Show();
         }
 
@@ -32,26 +33,48 @@ namespace CompetencePlus
 
         private void ajouterUneInscriptionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormStagiairesInscription f = new FormStagiairesInscription();
-            f.Show();
+           
         }
 
         private void gérerLesInscriptionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormGestionInscription f = new FormGestionInscription();
-            f.Show();
+
         }
 
         private void gérerLesStagiairesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormGestionStagiaires f = new FormGestionStagiaires();
-            f.Show();
+           
         }
 
         private void gestionDesGroupesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormGestionGroupes f = new FormGestionGroupes();
             f.Show();
+        }
+
+        private void gérerStagiaireToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormGestionStagiaires f = new FormGestionStagiaires();
+            f.Show();
+        }
+
+        private void ajouterUneInscriptionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormStagiairesInscription f = new FormStagiairesInscription();
+            f.Show();
+        }
+
+        private void validationDesInscriptionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormStagiairesConfirmerInscription form = new FormStagiairesConfirmerInscription();
+
+
+
+        }
+
+        private void suiviToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
