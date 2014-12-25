@@ -52,6 +52,9 @@
     <Compile Include="MenuApplication.designer.cs">
       <DependentUpon>MenuApplication.cs</DependentUpon>
     </Compile>
+    <Compile Include="PackageAbsences\Class2.cs" />
+    <Compile Include="PackageAnneeFormations\Class2.cs" />
+    <Compile Include="PackageEmploisTemps\Class2.cs" />
     <Compile Include="PackageFilieres\FormFiliere.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +73,9 @@
     <Compile Include="PackageFilieres\FormUpdateFiliere.designer.cs">
       <DependentUpon>FormUpdateFiliere.cs</DependentUpon>
     </Compile>
+    <Compile Include="PackageFormateurs\Class2.cs" />
+    <Compile Include="PackageFormations\Class2.cs" />
+    <Compile Include="PackageGroupes\Class1.cs" />
     <Compile Include="PackageGroupes\FormGestionGroupes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,10 @@
     <Compile Include="PackageGroupes\FormUpdateGroupe.designer.cs">
       <DependentUpon>FormUpdateGroupe.cs</DependentUpon>
     </Compile>
+    <Compile Include="PackageModules\Class2.cs" />
+    <Compile Include="PackageNotes\Class2.cs" />
+    <Compile Include="PackagePrevisionSeances\Class2.cs" />
+    <Compile Include="PackageSeances\Class2.cs" />
     <Compile Include="PackageStagiaires\FormGestionInscription.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,17 +222,7 @@
   <ItemGroup>
     <None Include="Resources\Profile.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="PackageAbsences\" />
-    <Folder Include="PackageAnneeFormations\" />
-    <Folder Include="PackageEmploisTemps\" />
-    <Folder Include="PackageFormateurs\" />
-    <Folder Include="PackageFormations\" />
-    <Folder Include="PackageModules\" />
-    <Folder Include="PackageNotes\" />
-    <Folder Include="PackagePrevisionSeances\" />
-    <Folder Include="PackageSeances\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
