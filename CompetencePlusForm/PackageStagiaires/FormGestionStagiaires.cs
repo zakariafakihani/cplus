@@ -43,9 +43,17 @@ namespace CompetencePlus.PackageStagiaires
             }
         }
 
-        private void BtResearch_Click(object sender, EventArgs e)
+        private void stagiaireDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+     
+
     }
 }

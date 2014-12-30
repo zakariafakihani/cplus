@@ -43,14 +43,19 @@ namespace CompetencePlus.PackageStagiaires
 
             FormStagiairesConfirmerInscription f = new FormStagiairesConfirmerInscription();
             f.Update(Url, nomTextBox.Text, PrenomTextBox.Text, dateNaissanceDateTimePicker.Value.ToString(),
-                sexe, CinTextBox.Text, (Groupe)groupeComboBox.SelectedItem, (Filiere)FilierecomboBox.SelectedItem,
-                emailTextBox.Text, telephoneTextBox.Text, adresseTextBox.Text);
+            sexe, CinTextBox.Text, (Groupe)groupeComboBox.SelectedItem, (Filiere)FilierecomboBox.SelectedItem,
+            emailTextBox.Text, telephoneTextBox.Text, adresseTextBox.Text);
             f.Formu = this;
             f.Show();
             this.Hide();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

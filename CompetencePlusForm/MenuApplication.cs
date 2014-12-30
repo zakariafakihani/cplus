@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using CompetencePlus.PackageFilieres;
 using CompetencePlus.PackageStagiaires;
 using CompetencePlus.PackageGroupes;
+using CompetencePlus.PackageFormateurs;
 
 namespace CompetencePlus
 {
@@ -74,6 +75,19 @@ namespace CompetencePlus
 
         private void suiviToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void gestionFormateurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormGestionFormateur f = new FormGestionFormateur();
+            f.Show();
+        }
+
+        private void ajouterFormateurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFormateur f = new FormFormateur();
+            f.Show();
 
         }
     }

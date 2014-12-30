@@ -64,6 +64,9 @@
             this.catégogieDactivitéToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.compétenceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.niveauxDesCompétencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formateursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionFormateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajouterFormateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +78,8 @@
             this.gestionIndividuToolStripMenuItem,
             this.formationsToolStripMenuItem,
             this.pédagogieToolStripMenuItem,
-            this.gestionDinformationToolStripMenuItem});
+            this.gestionDinformationToolStripMenuItem,
+            this.formateursToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -295,6 +299,26 @@
             this.niveauxDesCompétencesToolStripMenuItem.Name = "niveauxDesCompétencesToolStripMenuItem";
             resources.ApplyResources(this.niveauxDesCompétencesToolStripMenuItem, "niveauxDesCompétencesToolStripMenuItem");
             // 
+            // formateursToolStripMenuItem
+            // 
+            this.formateursToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestionFormateurToolStripMenuItem,
+            this.ajouterFormateurToolStripMenuItem});
+            this.formateursToolStripMenuItem.Name = "formateursToolStripMenuItem";
+            resources.ApplyResources(this.formateursToolStripMenuItem, "formateursToolStripMenuItem");
+            // 
+            // gestionFormateurToolStripMenuItem
+            // 
+            this.gestionFormateurToolStripMenuItem.Name = "gestionFormateurToolStripMenuItem";
+            resources.ApplyResources(this.gestionFormateurToolStripMenuItem, "gestionFormateurToolStripMenuItem");
+            this.gestionFormateurToolStripMenuItem.Click += new System.EventHandler(this.gestionFormateurToolStripMenuItem_Click);
+            // 
+            // ajouterFormateurToolStripMenuItem
+            // 
+            this.ajouterFormateurToolStripMenuItem.Name = "ajouterFormateurToolStripMenuItem";
+            resources.ApplyResources(this.ajouterFormateurToolStripMenuItem, "ajouterFormateurToolStripMenuItem");
+            this.ajouterFormateurToolStripMenuItem.Click += new System.EventHandler(this.ajouterFormateurToolStripMenuItem_Click);
+            // 
             // MenuApplication
             // 
             resources.ApplyResources(this, "$this");
@@ -350,5 +374,8 @@
         private System.Windows.Forms.ToolStripMenuItem lesSéancesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem compétenceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem niveauxDesCompétencesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formateursToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionFormateurToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajouterFormateurToolStripMenuItem;
     }
 }

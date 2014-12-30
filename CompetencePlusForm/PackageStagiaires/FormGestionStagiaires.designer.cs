@@ -146,6 +146,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox2
             // 
@@ -173,7 +174,6 @@
             this.BtResearch.TabIndex = 11;
             this.BtResearch.Text = "Recherche";
             this.BtResearch.UseVisualStyleBackColor = true;
-            this.BtResearch.Click += new System.EventHandler(this.BtResearch_Click);
             // 
             // label10
             // 
@@ -276,11 +276,12 @@
             this.Update,
             this.Delete});
             this.stagiaireDataGridView.DataSource = this.stagiaireBindingSource;
-            this.stagiaireDataGridView.Location = new System.Drawing.Point(6, 19);
+            this.stagiaireDataGridView.Location = new System.Drawing.Point(6, 38);
             this.stagiaireDataGridView.Name = "stagiaireDataGridView";
             this.stagiaireDataGridView.Size = new System.Drawing.Size(444, 441);
             this.stagiaireDataGridView.TabIndex = 0;
             this.stagiaireDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.stagiaireDataGridView_CellClick);
+            this.stagiaireDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.stagiaireDataGridView_CellContentClick);
             // 
             // dataGridViewTextBoxColumn2
             // 
